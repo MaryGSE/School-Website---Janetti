@@ -1,12 +1,38 @@
-body{background-color:black;}
-	body{height: 125vh; margin-top: 80px; padding: 30px; background-size: cover; font-family: sans-serif;}
-	header {background-color: rgb(255, 255, 128); position: fixed; left: 0; right: 0; top:15px; height: 45px; display: flex; align-items: center;}  
-	header * {display: inline;}  
-	header li {margin: 20px;}  
-	header li a{color: black; text-decoration: none; font-size:100%; font-family: garamond, arial,sans-serif}
-h1{font-family: garamond, arial, sans-serif; color:white; font-size:160%}
-h2{font-family: garamond, arial, sans-serif; font-size:150%; color:white;}
-h3{font-family: garamond, arial, sans-serif; font-size:140%; color:white;}
-p{font-family: garamond, arial, sans-serif; font-size:100%; color:white;}
-a{font-family: garamond, arial, sans-serif; font-size:100%; color:white; text-decoration: none;}
-ul{color:white;}
+:root {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: #ffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(255, 255, 128);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+header li {
+  margin: 20px;
+  display: inline;
+}
+header li a {
+  color: black;
+  font-weight: bolder; /*I just thought bold looks cool here but you pick*/
+}
+.main {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
