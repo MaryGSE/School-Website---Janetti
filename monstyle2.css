@@ -2,7 +2,7 @@
   font-family: arial, sans-serif;
   font-size: 16px;
   background-color: black;
-  color: #ffff;
+  color: #ffffff;
 }
 body {
   margin: 0;
@@ -25,7 +25,7 @@ header li {
 }
 header li a {
   color: black;
-  font-weight: bolder; /*I just thought bold looks cool here but you pick*/
+  font-weight: bolder; 
 }
 .main {
   padding: 30px;
@@ -34,5 +34,5 @@ header li a {
 
 a {
   text-decoration: none;
-  color: #ffff;
+  color: #ffffff;
 }
