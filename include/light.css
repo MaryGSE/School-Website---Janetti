@@ -1,0 +1,13 @@
+:root {
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: rgb(255, 255, 128);
+  }
+  header li a, a {
+    color: black;
+  }
+  
+  
